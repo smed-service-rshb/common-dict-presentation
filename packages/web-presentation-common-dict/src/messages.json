@@ -1,0 +1,110 @@
+{
+  "ExternalSystemService": {
+    "EditForm": {
+      "ExternalSystemId": "Номер",
+      "ExternalSystemName": "Наименование внешней системы",
+      "ExternalSystemNameRequired": "Поле 'Наименование внешней системы' обязательно для заполнения",
+      "ExternalSystemTimeout": "Таймаут",
+      "ExternalSystemTimeoutRequired": "Поле 'Таймаут' обязательно для заполнения",
+      "ExternalSystemTimeoutOnlyDigits": "Поле 'Таймаут' должно содержать толлько цифры",
+      "ExternalSystemFailurePeriod": "Период времени отказов",
+      "ExternalSystemFailurePeriodRequired": "Поле 'Период времени отказов' обязательно для заполнения",
+      "ExternalSystemFailurePeriodOnlyDigits": "Поле 'Период времени отказов' должно содержать толлько цифры",
+      "ExternalSystemFailurePeriodCount": "Количество отказов в периоде",
+      "ExternalSystemFailurePeriodCountRequired": "Поле 'Количество отказов в периоде' обязательно для заполнения",
+      "ExternalSystemFailurePeriodCountOnlyDigits": "Поле 'Количество отказов в периоде' должно содержать толлько цифры",
+      "FromName": "Внешняя система"
+    },
+    "ListForm": {
+      "ExternalSystemId": "Идентификатор",
+      "ExternalSystemType": "Тип",
+      "ExternalSystemName": "Наименование внешней системы",
+      "ExternalName": "Наименование",
+      "ExternalSystemTimeout": "Тайм-аут",
+      "ExternalSystemFailurePeriod": "Период",
+      "ExternalSystemFailurePeriodCount": "Отказы",
+      "FromName": "Внешняя система"
+    },
+    "ButtonsName": {
+      "Back": "Назад",
+      "Edit": "Сохранить",
+      "Create": "Создать",
+      "Remove": "Удалить"
+    },
+    "ErrorMessages": {
+      "NotAvailableDictionaries": "Нет доступных справочников",
+      "RemovingIsNotSuccess": "Не удалось удалить данные о внешней системе",
+      "SavingIsNotSuccess": "Не удалось сохранить данные о внешней системе",
+      "GettingIsNotSuccess": "Не удалось получить данные о внешней системе",
+      "CreatingIsNotSuccess": "Не удалось создать внешнюю систему"
+    },
+    "Responses": {
+      "RemovingIsSuccess": "Данные о внешней системе удалены",
+      "SavingIsSuccess": "Данные о внешней системе сохранены",
+      "CreatingIsSuccess": "Внешняя система создана"
+    },
+    "Dialogs": {
+      "Remove": "Вы уверены, что хотите удалить данные о внешней системе?"
+    }
+  },
+  "Country": {
+    "title": "Выберите страну",
+    "error": "Ошибка списка стран "
+  },
+  "BanksService": {
+    "ListForm": {
+      "BankName": "Наименование банка",
+      "BankBic": "БИК банка",
+      "BankSwift": "SWIFT",
+      "BankDescription": "Описание банка",
+      "BankCorrAccount": "Корр. счет",
+      "BankAddress": "Адрес",
+      "BankIsResident": "Банк-резидент",
+      "PopupSearchBank": "Всплывающее окно для поиска банка"
+    },
+    "ViewForm": {
+      "FromName": "Банк",
+      "BankName": "Наименование банка",
+      "BankBic": "БИК банка",
+      "BankSwift": "SWIFT",
+      "BankDescription": "Описание банка",
+      "BankCorrAccount": "Корр. счет",
+      "BankAddress": "Адрес",
+      "BankIsResident": "Банк-резидент"
+    },
+    "ButtonsName": {
+      "Back": "Назад"
+    },
+    "ErrorMessages": {
+      "NotAvailableDictionaries": "Нет доступных справочников",
+      "GettingIsNotSuccess": "Не удалось получить данные о банке"
+    },
+    "PopupSearch": {
+      "Buttons": {
+        "Cancel": "Отменить"
+      }
+    }
+  },
+  "UploadLabel": {
+    "terrorists": "Справочник экстремистов и террористов",
+    "blockages": "Справочник лиц, в отношении которых действует решение межведомственной комиссии о замораживании (блокировании) принадлежащих им денежных средств или иного имущества",
+    "update": "Загрузка",
+    "check": "Проверка",
+    "finished": "Проверка завершена",
+    "TERRORIST": "Справочник экстремистов и террористов",
+    "BLOCKAGE": "Справочник лиц, в отношении которых действует решение межведомственной комиссии о замораживании (блокировании) принадлежащих им денежных средств или иного имущества",
+    "INVALID_IDENTITY_DOC": "Справочник недействующих паспортов"
+  },
+  "CurrencyRate": {
+    "panelName": "Курс",
+    "currencyId": "Валюта",
+    "startDate": "Дата и время начала использования курса",
+    "endDate": "Дата и время окончания использования курса",
+    "rate": "Курс ЦБ РФ",
+    "innerRate": "Курс Организации",
+    "edited": "Курс ЦБ РФ загружен с ЦБ РФ",
+    "emptyGridMessage":"Нет данных для отображения",
+    "getDateError": "Не удалось получить данные о курсе",
+    "Save": "Сохранить"
+  }
+}

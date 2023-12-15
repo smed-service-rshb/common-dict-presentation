@@ -1,0 +1,7 @@
+.hidden{
+    display: none;
+}
+
+.upload-check-dict-grid td:first-of-type{
+    width: 340px
+}

@@ -1,0 +1,22 @@
+{
+  "name": "web-presentation-common-dict",
+  "description": "Презентация микросервиса общих справочников.",
+  "private": true,
+  "devDependencies": {
+    "lerna": "2.2.0"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap --concurrency=1 --hoist",
+    "clean": "lerna exec -- rimraf node_modules && rimraf output && rimraf node_modules",
+    "start-mock": "cd packages/web-presentation-common-dict-dev && npm run start-mock",
+    "start-app": "cd packages/web-presentation-common-dict-dev && npm run start-app",
+    "build": "cd packages/web-presentation-common-dict-dev && npm run build-app",
+    "test": "run-tests",
+    "lint": "lerna exec -- npm run lint",
+    "docker-push": "cd packages/web-presentation-common-dict-dev && npm run docker-push",
+    "publish": "lerna publish --force-publish=*"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-services/"
+  }
+}

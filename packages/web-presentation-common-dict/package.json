@@ -1,0 +1,15 @@
+{
+  "name": "@efr/medservice-web-presentation-common-dict",
+  "version": "1.0.0-smed",
+  "description": "Презентация микросервиса общих справочников",
+  "main": "src/index.js",
+  "devDependencies": {
+    "isomorphic-fetch": "2.2.1"
+  },
+  "scripts": {
+    "lint": "run-liter"
+  },
+  "publishConfig": {
+    "@efr:registry": "http://coral:18088/repository/efr-presentation-services/"
+  }
+}

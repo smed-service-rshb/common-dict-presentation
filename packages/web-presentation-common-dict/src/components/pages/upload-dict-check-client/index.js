@@ -1,0 +1,2 @@
+
+export {UploadDictionariesPanel} from './view';
